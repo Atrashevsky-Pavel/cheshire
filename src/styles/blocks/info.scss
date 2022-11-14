@@ -1,0 +1,126 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+    @media (min-width: 769px) {
+        width: 1147px;
+        position: relative;
+    }
+}
+
+.info__text {
+    padding-top: 70px;
+    @media (min-width: 769px) {
+        width: 740px;
+    }
+ 
+    >p:nth-child(2) {
+      margin-top: 25px;
+    }
+}
+
+.info__cards {
+    margin-top: 40px;
+    padding-right: 30px;
+    @media (min-width: 769px) {
+        width: 269px;
+        position: absolute;
+        right: 0px;
+    }
+    >img {
+        border-radius: 50%;
+        width: 70px;
+        @media (min-width: 769px) {
+            width: 90px;
+        }
+    }       
+}
+
+
+.info__cards-top {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    @media (min-width: 769px) {
+        display: block;
+    }
+    >div {
+        width: 120px;
+        @media (min-width: 769px) {
+            margin-top: 120px;
+            width: 235px;
+        }
+        >p {
+            margin-top: 15px;  
+          }  
+    }
+}
+
+.info__cards-bottom {
+    >div {
+        width: 190px;
+        @media (min-width: 769px) {
+            margin-top: 120px;
+            width: 255px;
+        }
+        >p {
+            margin-top: 15px;    
+          }  
+    }
+}
+
+.info__cards-image {
+    border-radius: 50%;
+    width: 70px;
+}
+
+.info__icons {
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 769px) {
+       flex-direction: row;
+       width: 740px;
+       justify-content: space-between;
+    }
+    
+    margin-top: 69px;
+    >div {
+        display: flex;
+        @media (min-width: 769px) {
+            display: block;
+            width: 230px;
+        }
+    }
+}
+
+.info__icons-image {
+    padding: 15px;
+    margin-right: 26px;    
+    >img {
+        margin-top: 25px;
+        display: block;
+        width: 34px;
+        height: 34px;
+    }
+}
+
+.info__icons-text {
+    >p:nth-child(1) {
+        margin-top: 25px;
+    }
+    >p:nth-child(2) {
+        margin-top: 10px;
+    }
+    >p:nth-child(3) {
+        margin-top: 5px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #006695;
+    }
+}

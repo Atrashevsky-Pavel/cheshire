@@ -1,0 +1,14 @@
+@import "blocks/info.scss";
+@import "blocks/service.scss";
+@import "blocks/certificates.scss";
+@import "blocks/modal.scss";
+@import "constants/fonts.scss";
+
+html {
+  font-family: 'PT Sans', sans-serif;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}

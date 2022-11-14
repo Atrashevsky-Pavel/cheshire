@@ -1,0 +1,43 @@
+.certificates {
+    width: 330px;
+    margin-top: 66px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+    margin-bottom: 120px;
+    @media (min-width: 769px) {
+       width: 1171px;
+    }
+}
+
+.certificates__items {
+    img {
+        display: block;
+        width: 150px;
+        height: 217px;
+        margin-top: 20px;
+        cursor: pointer;
+        @media (min-width: 769px) {
+            margin-top: 30px;
+            width: 260px;
+            height: 389px;
+            margin-right: 28px;
+            img:nth-child(4) {
+                padding-right: 0px;
+            }
+        }
+    }    
+    img:nth-child(odd) {
+        float: left;
+
+    }
+    img:nth-child(even) {
+        float: right;
+        @media (min-width: 769px) {
+            float: left;
+        }
+    }
+    img:last-child {
+        margin-bottom: 120px;
+    }
+}

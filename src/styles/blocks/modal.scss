@@ -1,0 +1,48 @@
+.modal {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    width: 100vw; 
+    height: 100vh;
+     overflow: auto
+}
+
+.modal__certificate {
+    display: block;
+    margin: auto auto;
+    position: relative;
+    >img:nth-child(1) {
+        width: 450px;
+        height: 638px;
+    }  
+}
+
+.modal__button {
+    position: absolute;
+    right: -39px;
+    top: 0px;
+    width: 26px;
+    height: 27px;
+    cursor: pointer;
+}
+.modal__button:hover {
+    background-color: #7d4545;
+    transition: background-color .30s;
+}
+
+.modal__button-bottom {
+    position: absolute;
+    right: 14px;
+    top: 15px;
+}
+
+.modal__button-top {
+    position: absolute;
+    right: 0px;
+    top: 1px;
+}
+
